@@ -1,8 +1,6 @@
 import '../css/common.css';
 
-/*
- * Метод window.setTimeout(callback, delay, args)
- */
+// * Метод window.setTimeout(callback, delay, args)
 
 // console.log('До вызова setTimeout');
 
@@ -16,9 +14,11 @@ import '../css/common.css';
 
 // console.log('После вызова setTimeout');
 
-/*
- * Очистка таймаута с clearTimeout(timeoutId)
- */
+// for (let index = 0; index < 10000; index++) {
+//   console.log(index);
+// }
+
+// * Очистка таймаута с clearTimeout(timeoutId)
 
 const logger = time => {
   console.log(`Лог через ${time}ms, потому что не отменили таймаут`);
